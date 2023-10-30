@@ -11,6 +11,7 @@
 #include "llvm/Support/PointerLikeTypeTraits.h"
 #include "llvm/ADT/StringRef.h"
 #include <unordered_map>
+#include <optional>
 
 namespace mlir {
 class Value;

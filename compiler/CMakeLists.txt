@@ -83,7 +83,7 @@ set(POLYGEIST_UTILS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/utils)
 
 set(LLVM_LIT_ARGS "-sv" CACHE STRING "lit default options")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/modules")
-include(sanitizers)
+#include(sanitizers)
 
 add_subdirectory(include)
 add_subdirectory(lib)

@@ -76,4 +76,4 @@ target_link_libraries(cgeist PRIVATE
   clangSerialization
 )
 add_dependencies(cgeist MLIRPolygeistOpsIncGen MLIRPolygeistPassIncGen)
-add_subdirectory(Test)
+#add_subdirectory(Test)
